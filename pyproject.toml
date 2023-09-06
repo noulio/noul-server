@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "noul-backend"
+version = "0.1.0"
+description = ""
+authors = ["Kong Chewoon <nckres14@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "~4.2.4"
+django-environ = "^0.11.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
